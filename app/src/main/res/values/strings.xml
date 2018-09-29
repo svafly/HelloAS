@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HelloWorld</string>
+    <string name="btn_1_name">按钮1</string>
+    <string name="btn_2_name">按钮2</string>
+    <string name="btn_3_name">按钮3</string>
+    <string name="btn_4_name">按钮4</string>
+    <string name="tv_1_name">文字1</string>
 </resources>

@@ -5,4 +5,5 @@
     <string name="btn_3_name">按钮3</string>
     <string name="btn_4_name">按钮4</string>
     <string name="tv_1_name">文字1</string>
+    <string name="btn_edittext_name">EditText</string>
 </resources>

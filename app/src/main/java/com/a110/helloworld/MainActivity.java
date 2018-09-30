@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
     Button button1;
     @BindView(R.id.btn_button)
     Button btnButton;
+    @BindView(R.id.btn_edittext)
+    Button btnEdittext;
+    @BindView(R.id.btn_radiobutton)
+    Button btnRadiobutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,19 +29,27 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.button_1, R.id.btn_button})
+    @OnClick({R.id.button_1, R.id.btn_button, R.id.btn_edittext, R.id.btn_radiobutton})
     public void onViewClicked(View view) {
+        Intent intent;
         switch (view.getId()) {
             case R.id.button_1:
                 //跳转到TextView界面
-                Intent intent = new Intent(MainActivity.this, TextViewActivity.class);
+                intent = new Intent(MainActivity.this, TextViewActivity.class);
                 startActivity(intent);
                 break;
             case R.id.btn_button:
-                Intent intent1 = new Intent(MainActivity.this, ButtonActivity.class);
-                startActivity(intent1);
+                intent = new Intent(MainActivity.this, ButtonActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_edittext:
+                intent = new Intent(MainActivity.this, EditTextActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_radiobutton:
+                intent =  new Intent(MainActivity.this, RadioButtonActivity.class);
+                startActivity(intent);
                 break;
         }
-
     }
 }

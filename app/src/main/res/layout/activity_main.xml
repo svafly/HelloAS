@@ -16,4 +16,18 @@
         android:layout_height="wrap_content"
         android:text="Button"/>
 
+    <Button
+        android:id="@+id/btn_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_edittext_name"
+        android:textAllCaps="false"/>
+    
+    <Button
+        android:id="@+id/btn_radiobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="RadioButton"/>
+
 </LinearLayout>

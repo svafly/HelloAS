@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.a110.helloworld">
 
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +22,16 @@
         <activity android:name=".TextViewActivity" />
         <activity android:name=".ButtonActivity" />
         <activity android:name=".EditTextActivity" />
-        <activity android:name=".RadioButtonActivity"></activity>
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name=".gridview.GridViewActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".recyclerview.LinearRecyclerViewActivity" />
+        <activity android:name=".recyclerview.HorRecyclerViewActivity" />
+        <activity android:name=".recyclerview.GridRecyclerViewActivity" />
+        <activity android:name=".recyclerview.PuRecyclerViewActivity"></activity>
     </application>
 
 </manifest>

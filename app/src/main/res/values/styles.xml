@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/bg_two_bear</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="AppTheme">
+        <item name="android:listDivider">@drawable/shape_divider_linear</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
 </resources>

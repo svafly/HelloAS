@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_insert_cert_name_bg"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/dialog_insertname_title"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_gray_bg"
+        android:layout_below="@id/tv_title"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:background="@color/transparent"
+            android:hint="@string/dialog_insertname_tip"
+            android:textColorHint="@color/mooc_index_gray"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:maxLines="1"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_insertname_notice"
+        android:layout_gravity="center"
+        android:textColor="#cccccccc"
+        android:layout_margin="16sp"
+        android:textSize="12sp"
+        android:lineSpacingMultiplier="1.2" />
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/btn_confirm"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/selector_orange_btn"/>
+</LinearLayout>

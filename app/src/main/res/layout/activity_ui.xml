@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text view"/>
+
+        <Button
+            android:id="@+id/btn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"/>
+
+        <Button
+            android:id="@+id/btn_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_edittext_name"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="RadioButton"/>
+
+        <Button
+            android:id="@+id/btn_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="CheckBox"/>
+
+        <Button
+            android:id="@+id/btn_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="ImageView"/>
+
+        <Button
+            android:id="@+id/btn_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="ListView"/>
+
+        <Button
+            android:id="@+id/btn_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="GridView"/>
+
+        <Button
+            android:id="@+id/btn_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="RecyclerView"/>
+
+        <Button
+            android:id="@+id/btn_webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="WebView" />
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="ToastView" />
+
+        <Button
+            android:id="@+id/btn_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Dialog" />
+
+        <Button
+            android:id="@+id/btn_custom_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="自定义Dialog" />
+
+        <Button
+            android:id="@+id/btn_custom_Popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="PopupWindow" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

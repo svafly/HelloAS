@@ -6,4 +6,11 @@
     <string name="btn_4_name">按钮4</string>
     <string name="tv_1_name">文字1</string>
     <string name="btn_edittext_name">EditText</string>
+    <string name="dialog_insertname_title">恭喜您获得了一份证书</string>
+    <string name="dialog_insertname_notice">真实姓名仅用于完赛证书上必要信息的填充，我们将对您的个人信息进行严格保密</string>
+    <string name="dialog_insertname_tip">请输入真实姓名</string>
+
+    <!--base string-->
+    <string name="btn_confirm">确认</string>
+    <string name="btn_cancel">取消</string>
 </resources>

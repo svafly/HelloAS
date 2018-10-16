@@ -3,33 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    
-    <Button
-        android:id="@+id/btn_ui"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="UI"
-        android:textAllCaps="false"/>
 
     <Button
-        android:id="@+id/btn_lifecycle"
+        android:id="@+id/btn_toast_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LifeCycle"
-        android:textAllCaps="false"/>
+        android:text="默认"/>
 
     <Button
-        android:id="@+id/btn_jump"
+        android:id="@+id/btn_toast_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jump"
-        android:textAllCaps="false"/>
+        android:text="改变位置"/>
 
     <Button
-        android:id="@+id/btn_fragment_b"
+        android:id="@+id/btn_toast_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fragment"
-        android:textAllCaps="false"/>
+        android:text="带图片(自定义)"/>
 
 </LinearLayout>

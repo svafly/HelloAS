@@ -3,33 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    
     <Button
-        android:id="@+id/btn_ui"
+        android:id="@+id/btn_dialog1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="UI"
-        android:textAllCaps="false"/>
-
+        android:text="style1"/>
     <Button
-        android:id="@+id/btn_lifecycle"
+        android:id="@+id/btn_dialog2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LifeCycle"
-        android:textAllCaps="false"/>
-
+        android:text="style2"/>
     <Button
-        android:id="@+id/btn_jump"
+        android:id="@+id/btn_dialog3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jump"
-        android:textAllCaps="false"/>
-
+        android:text="style3"/>
     <Button
-        android:id="@+id/btn_fragment_b"
+        android:id="@+id/btn_dialog4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fragment"
-        android:textAllCaps="false"/>
+        android:text="style4"/>
+    <Button
+        android:id="@+id/btn_dialog5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="style5"/>
 
 </LinearLayout>

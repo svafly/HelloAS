@@ -9,4 +9,6 @@
     <color name="colorGrayDark">#848484</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorTransparent">#E9E8E2</color>
+    <color name="mooc_index_gray">#717171</color>
+    <color name="transparent">#00000000</color>
 </resources>

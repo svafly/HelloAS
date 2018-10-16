@@ -3,33 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    
-    <Button
-        android:id="@+id/btn_ui"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="UI"
-        android:textAllCaps="false"/>
+        android:text="I'm B"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="ddd"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
 
     <Button
-        android:id="@+id/btn_lifecycle"
+        android:id="@+id/btn_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LifeCycle"
-        android:textAllCaps="false"/>
+        android:text="finish"/>
 
     <Button
-        android:id="@+id/btn_jump"
+        android:id="@+id/btn_jump_b_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jump"
-        android:textAllCaps="false"/>
-
-    <Button
-        android:id="@+id/btn_fragment_b"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment"
-        android:textAllCaps="false"/>
+        android:text="Jump to A"/>
 
 </LinearLayout>

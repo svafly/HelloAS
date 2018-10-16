@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/btn_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="给Activity传递消息"/>
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="更换Fragment to B"/>
+    <Button
+        android:id="@+id/btn_change_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="更换TextView内容"/>
+    <TextView
+        android:id="@+id/tv_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="我是AFragment"
+        android:gravity="center"/>
+
+</LinearLayout>

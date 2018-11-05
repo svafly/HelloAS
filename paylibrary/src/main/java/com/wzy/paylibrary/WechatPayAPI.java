@@ -1,6 +1,9 @@
 package com.wzy.paylibrary;
 
 /**
+ * 微信支付API
+ * 使用：
+ * WechatPayAPI.getInstance.sendPayReq(wechatPayReq);
  * Create by vicky on 2018/11/5
  */
 public class WechatPayAPI {

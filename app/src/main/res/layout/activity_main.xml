@@ -32,4 +32,76 @@
         android:text="Fragment"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/btn_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事件机制"
+        android:textAllCaps="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        >
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorGrayCCC"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="向向币"
+            android:textColor="@color/colorGrayCCC"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorGrayCCC"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:background="@drawable/shape_gold_gray_shadow"
+        android:elevation="5dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一小枚金币"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_gold_light">
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="@string/rmb"
+                android:background="@drawable/shape_gold_orange_down"
+                android:gravity="center"
+                android:layout_gravity="center|bottom"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
 </LinearLayout>

@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnJump;
     @BindView(R.id.btn_fragment_b)
     Button btnFragmentB;
+    @BindView(R.id.btn_event)
+    Button btnEvent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btn_ui, R.id.btn_lifecycle, R.id.btn_jump, R.id.btn_fragment_b})
+    @OnClick({R.id.btn_ui, R.id.btn_lifecycle, R.id.btn_jump, R.id.btn_fragment_b, R.id.btn_event})
     public void onViewClicked(View view) {
         Intent intent;
         switch (view.getId()) {
@@ -49,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_fragment_b:
                 intent = new Intent(MainActivity.this, ContainerActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_event:
+                intent = new Intent(MainActivity.this, EventActivity.class);
                 startActivity(intent);
                 break;
         }

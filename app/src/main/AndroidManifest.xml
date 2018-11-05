@@ -51,7 +51,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".fragment.ContainerActivity"></activity>
+        <activity android:name=".fragment.ContainerActivity" />
+        <activity android:name=".EventActivity"></activity>
     </application>
 
 </manifest>
